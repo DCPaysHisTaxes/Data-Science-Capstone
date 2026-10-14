@@ -1,0 +1,22 @@
+---
+title: "Section Draft"
+subtitle: "Data Science Capstone"
+author: "Daniel Coker"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    number_sections: false
+fontsize: 12pt
+geometry: margin=1in
+header-includes:
+  - \usepackage{setspace}
+  - \setstretch{1.5}
+---
+
+# Introduction {-}
+
+\hspace*{2em}History constantly reveals how innovation shifts trade, work, economics, and political influence. Usually, innovators or creators are not the ones holding control of modern technological advancements that shape the world, but those supplying innovators with the necessary resources. With the invention of the car and other vehicles, the demand for oil and gas exploded, prompting once obscure nations and companies to become influential world players almost instantly. Today’s AI Boom follows a similar notion where digital/tech needs are often backed by countless materials and infrastructure. Within the past year, thanks to artificial intelligence, the infrastructure and other relevant Internet of Things initiatives behind it have also rapidly expanded. Electricity demand for computing facilities jumped 17\% in 2025, with specific AI-dedicated sites outpacing global consumption trends (International Energy Agency [IEA], 2026). Related components like Dynamic Random Access Memory (DRAM), Graphics Processing Units (GPUs), power supplies, data storage units for cloud computing, etc., demand has surged drastically, causing a global shortage of semiconductor chips as they are the main material for these components/devices. Ultimately, this surge means that businesses supplying key components are additionally facing growing pressure to produce to meet demand. While companies such as NVIDIA, Microsoft, Amazon, Google, and OpenAI dominate modern headlines and are no doubt propelling the demand for further infrastructure, these companies are not actually the main culprits for this storage; companies like Samsung, SK Hynix, Micron, TSMC, and other semiconductor chip manufacturers are.
+
+\hspace*{2em}Semiconductor chip manufacturers have long shaped industrial dynamics by controlling key materials, steering semiconductor supply chain outcomes. DRAM production, for example, is entirely dependent on a handful of firms, tightening the global supply chain and price. Within the last couple of years, DRAM demand has surged, causing massive price increases (Bloomberg, 2021). As previously mentioned, one factor contributing to these hikes in prices lies in how data centers scaled up their massive computing loads to accommodate the massive demand for AI and other API-related services; however, DRAM and related components are not only used in AI or IoT industries. DRAM is found in a variety of different industries, including automotive, commodities trading, finance, mining, farming, education, etc. These demands often spill into component costs across these industries, too, further worsening supply and affordability for several consumers and stakeholders in these sectors.
+
+\hspace*{2em}A closer analysis of supply networks reveals bottlenecks, dependencies, and deficient optimization that amplify small disruptions in the semiconductor chip supply chain. To illustrate these connections, I propose an early statistical approach that examines whether more data-center activity tracks with higher chip prices alongside other factors/controls. Patterns in recent years suggest such a connection may exist, though the nuances in the details remain unexplored. This paper hopes to reveal a more nuanced perspective on artificial intelligence and semiconductor chip storage beyond innovation and invention to the ties it has with supply chains and logistical networks. Although the main AI firms are the “blazerunners” during this AI boom, the most influential companies in this current market are the semiconductor chip manufacturers due to their undisputed dominance over supply, causing them to drive forward advancements in this digital age.
